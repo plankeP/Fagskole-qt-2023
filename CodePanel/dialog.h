@@ -28,6 +28,8 @@ private slots:
 
     void on_btnReset_clicked();
 
+    void on_pushButton_11_clicked();
+
 private:
     Ui::Dialog *ui;
     QString temp;

@@ -89,3 +89,16 @@ void Dialog::on_btnReset_clicked()
         ui->btnReset->setEnabled(false);
 }
 
+
+void Dialog::on_pushButton_11_clicked()
+{
+//    if(temp.isEmpty()){   //do nothing
+//    QMessageBox::information(this, "Information", "Nothing to erase");
+    //slett siste tallet skrevet i label.
+//    else{
+        temp.pop_back();
+
+//        }
+//    }
+}
+

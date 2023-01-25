@@ -1,0 +1,15 @@
+# ninja log v5
+5	168	6963688507107253	CodePanel_autogen/timestamp	534fb8c1a4737347
+451	1908	6963658229082867	CMakeFiles/CodePanel.dir/main.cpp.obj	5bff6b7b4d237099
+5	168	6963688507107253	C:/Users/Petter/Documents/GitHub/Fagskole-qt-2023/build-CodePanel-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/CodePanel_autogen/mocs_compilation.cpp	534fb8c1a4737347
+5	168	6963688507107253	CodePanel_autogen/mocs_compilation.cpp	534fb8c1a4737347
+177	2104	6963688526447210	CMakeFiles/CodePanel.dir/dialog.cpp.obj	d057cc100256c933
+5	168	6963688507107253	C:/Users/Petter/Documents/GitHub/Fagskole-qt-2023/build-CodePanel-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/CodePanel_autogen/timestamp	534fb8c1a4737347
+443	1911	6963658229102815	CMakeFiles/CodePanel.dir/CodePanel_autogen/mocs_compilation.cpp.obj	e7ea550a8fc42200
+2105	2270	6963688527836785	CodePanel.exe	a36d0fd2d8f5c915
+4	163	6963688835881250	CodePanel_autogen/timestamp	534fb8c1a4737347
+4	163	6963688835881250	CodePanel_autogen/mocs_compilation.cpp	534fb8c1a4737347
+4	163	6963688835881250	C:/Users/Petter/Documents/GitHub/Fagskole-qt-2023/build-CodePanel-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/CodePanel_autogen/timestamp	534fb8c1a4737347
+4	163	6963688835881250	C:/Users/Petter/Documents/GitHub/Fagskole-qt-2023/build-CodePanel-Desktop_Qt_6_2_4_MSVC2019_64bit-Debug/CodePanel_autogen/mocs_compilation.cpp	534fb8c1a4737347
+172	2088	6963688855115880	CMakeFiles/CodePanel.dir/dialog.cpp.obj	d057cc100256c933
+2089	2245	6963688856432370	CodePanel.exe	a36d0fd2d8f5c915

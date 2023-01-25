@@ -92,13 +92,14 @@ void Dialog::on_btnReset_clicked()
 
 void Dialog::on_pushButton_11_clicked()
 {
-//    if(temp.isEmpty()){   //do nothing
-//    QMessageBox::information(this, "Information", "Nothing to erase");
+    if(temp.isEmpty()){   //do nothing
+    QMessageBox::information(this, "Information", "Nothing to erase");
+    }
     //slett siste tallet skrevet i label.
-//    else{
-        temp.pop_back();
+    else{
+        temp.remove(temp.length()-1, temp.length());
+    ui->lblNotify->setText("typed: " + temp);
+        }
 
-//        }
-//    }
 }
 

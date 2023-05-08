@@ -20,21 +20,21 @@ TicTacToe::Player TicTacToe::getBoardState(int row, int col) const {
 }
 
 bool TicTacToe::checkWinner() const {
-    // Check rows
+    // sjekk horisontalt
     for (int i = 0; i < 3; ++i) {
         if (board[i][0] == board[i][1] && board[i][0] == board[i][2] && board[i][0] != Player::None) {
             return true;
         }
     }
 
-    // Check columns
+    // Sjekk vertikalt
     for (int i = 0; i < 3; ++i) {
         if (board[0][i] == board[1][i] && board[0][i] == board[2][i] && board[0][i] != Player::None) {
             return true;
         }
     }
 
-    // Check diagonals
+    // Sjekk på skrått
     if (board[0][0] == board[1][1] && board[0][0] == board[2][2] && board[0][0] != Player::None) {
         return true;
     }

@@ -31,13 +31,13 @@ MainWindow::MainWindow(QWidget *parent)
 
 
 void MainWindow::buttonClicked() {
-    // not used because we're using lambda functions
+    // ikke i bruke fordi vi bruker lambda function
 
 
 }
 
 void MainWindow::updateUI() {
-    // Update the buttons based on the TicTacToe game state
+    // Oppdatere knappene
     for (int i = 0; i < 9; ++i) {
 
             TicTacToe::Player player = game.getBoardState(i / 3, i % 3);
